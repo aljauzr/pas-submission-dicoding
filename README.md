@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ## Run the program
 Run all cells in scraper.ipynb first, and then run notebook.ipynb.
-In notebook.ipynb, you need to adjust this line to the location of yout data.csv
+In notebook.ipynb, you need to adjust this line to the path of your data.csv
 ```
 url = 'https://raw.githubusercontent.com/aljauzr/pas-submission-dicoding/refs/heads/main/ulasan_aplikasi.csv'
 app_reviews_df = pd.read_csv(url)
